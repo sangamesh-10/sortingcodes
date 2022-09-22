@@ -56,10 +56,6 @@ public class RadixSort {
 				p++;
 			}
 			F = b[p];			
-			for(int k = 0;k<10;k++){
-				if(b[k]==null) continue;
-				
-			}
 			for(int i = p+1;i<10;i++){
 				Node prev = t[i-1];
 				if(t[i]==null){
